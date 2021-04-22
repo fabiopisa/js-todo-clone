@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* classi generali */
+.uppercase{
+  text-transform: uppercase;
+}
+/* / classi generali */
+main{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(236, 164, 55);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:flex-start;
+}
+h1{
+  color: #FFFFFF;
+  font-size: 60px;
+  margin-top: 150px;
+}
+input{
+  width: 30%;
+  padding:3px 15px ;
+  margin: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255,255,255,0.7);
+  box-shadow: 1px 0px 5px 2px rgba(0, 0, 0, 0.3) ;
+  outline: 0;
+}
+input:hover{
+  background-color: #FFFFFF;
+}
+ul{
+  list-style: none;
+  width: 30% ;
+}
+li{
+  color: #FFFFFF;
+  height: 30px;
+  border-bottom:1px solid rgba(0,0,0, 0.2);
+  display: flex;
+  justify-content: space-between;
+}
+li:last-child{
+  border-bottom: 0px;
+}
+li i{
+  color: rgba(255, 255, 255, 0.6);
+}
+li i:hover{
+  color: #FFFFFF;
+  cursor: pointer;
+}
